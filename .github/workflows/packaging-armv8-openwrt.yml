@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       source_repo:
-        description: '选择要打包的LUCI版本'
+        description: '选择要使用的openwrt版本'
         required: true
         default: 'lede'
         type: choice

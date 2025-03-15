@@ -163,7 +163,7 @@ ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 [ -d openwrt ] && cd openwrt || exit
 echo "OPENWRT_PATH=$PWD" >>$GITHUB_ENV
 
-# 设置luci版本为18.06
+# 设置版本
 #sed -i '/luci/s/^#//; /openwrt-23.05/s/^/#/' feeds.conf.default
 
 # 开始生成全局变量
